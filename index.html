@@ -1,0 +1,103 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url(bg1.png.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .many {
+            display: flex;
+            list-style: none;
+            margin-right: 20px;
+            text-decoration: none;
+
+        }
+
+        .bro {
+            list-style: none;
+        }
+
+        .what {
+            margin-right: 20px;
+
+        }
+
+        .dropdown {
+            position: relative;
+            text-align: center;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .br {
+            display: none;
+            position: absolute;
+            background-color: brown;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav>ul>li:hover ul {
+            display: block;
+            color: darkgoldenrod;
+
+        }
+
+        section {
+            display: flex;
+        }
+
+        .moga {
+            box-shadow: 10px 20px 30px rosybrown;
+            padding-left: 10px;
+            margin: auto;
+            border: 5px solid yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="dropdown">
+        <ul class="many">
+            <li class="what"><a href="https://www.facebook.com/">Home </a></li>
+            <li class="what"><a href="https://www.facebook.com/">About Us</a></li>
+            <li class="what"><a href="https://www.facebook.com/">Contact</a>
+                <ul class="br">
+                    <li><a href="">some</a></li>
+                    <li><a href="">name</a></li>
+                    <li><a href="">game</a></li>
+                </ul>
+            </li>
+            <li class="what"><a href="https://www.facebook.com/"></a> Services
+                <ul class="br">
+                    <li class="bro"><a href="https://www.facebook.com/">service one</a></li>
+                    <li class="bro"><a href="https://www.facebook.com/">service two</a></li>
+                    <li class="bro"><a href="https://www.facebook.com/">service three</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <section>
+        <div class="moga">
+            <h1> Tor Nanir Heda </h1>
+            <p>tor choddo ghustir heda </p>
+        </div>
+        <div class="moga">
+            <h1> Tor Nanir Heda</h1>
+            <p>Tor choddo ghustir heda </p>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
